@@ -32,7 +32,7 @@ const MainContent = () => {
             {!isVideoPlaying ? (
               <div className="video-placeholder" 
                    style={{
-                     backgroundImage: `url('https://img.youtube.com/vi/0DsfdxBX8IE/maxresdefault.jpg')`,
+                     backgroundImage: `url('https://img.youtube.com/vi/cCeHRH7IDG0/maxresdefault.jpg')`,
                      backgroundSize: 'cover',
                      backgroundPosition: 'center',
                      cursor: 'pointer'
@@ -45,7 +45,7 @@ const MainContent = () => {
                 <iframe
                   width="100%"
                   height="300"
-                  src="https://www.youtube.com/embed/0DsfdxBX8IE?autoplay=1"
+                  src="https://www.youtube.com/embed/cCeHRH7IDG0?autoplay=1"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -57,7 +57,7 @@ const MainContent = () => {
                 ></iframe>
               </div>
             )}
-            <a href="https://youtube.com/@soccersong23?si=v0SnCxfsJc9Fy3XZ" className="video-link" target="_blank" rel="noopener noreferrer">최근 설교 영상 보기</a>
+            <a href="https://www.youtube.com/live/cCeHRH7IDG0" className="video-link" target="_blank" rel="noopener noreferrer">최근 설교 영상 보기</a>
           </div>
         </section>
 
